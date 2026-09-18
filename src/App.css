@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
+.navibar{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
 }
+.inputbox{
+  height: 33px;
+  width: 300px;
+  border-radius: 15px;
+  padding-left: 5px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchbutton{
+  height: 33px;
+  width: 100px;
+}
+.searchbar{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top:10px ;
+  gap: 5px;
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.cityinfo{
+    height: 45vh;
+    width: 100%;
+    gap: 25px;
+}
+.box{
+width: 25%;
+height: 230px;
+border: 1px solid black;
+border-radius: 15px;
+
+}
+.commonplaces{
+    height: 40vh;
+    width: 100%;
+   
+
+}
+.citytable{
+   height: 20vh ;
+   width: 80%;
+   align-items: center;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.commonplaces td,
+.commonplaces th{
+    
+    padding: 10px;
 }

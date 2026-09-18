@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './components/navbar'
+import Weather from './components/weatherinfo'
+import Commoncities from './components/commonplaces';
+import { useState } from 'react';
 
-function App() {
+
+ function App() {
+  const [weatherdata,setWeatherdata]=useState(null)
+   const apidata = async (itext) => {
+        const response = await fetch(
+            `https://api.openweathermap.org/data/2.5/weather?q=${itext}&appid=3ef5930c47419103d6bab93bbdfaa0a2&units=metric`
+        );
+        const data = await response.json();
+        console.log(data);
+        setWeatherdata(data)
+    };
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+      <Nav getcity={apidata} />
+      <Weather weatherdata={weatherdata}/>
+      <Commoncities weatherdata={weatherdata}/>
+     </div>
   );
 }
-
 export default App;
