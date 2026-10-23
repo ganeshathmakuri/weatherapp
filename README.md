@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# CODTECH IT SOLUTIONS PVT. LTD.
+## Frontend Web Development Internship
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Internship Details
 
-## Available Scripts
+- **Intern Name:** Athmakuri Ganesh
+- **Internship ID:** CITS8911
+- **Internship Role:** Frontend Web Development Intern
+- **Organization:** Codtech IT Solutions Private Limited
+- **Internship Duration:** 8 Weeks
+- **Internship Period:** 02 September 2026 – 28 October 2026
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Information
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Project Name:** Weather forecast App
+- **Project Scope:** Frontend Web Development
+- **Technologies Used:** HTML, CSS, JavaScript, React.js,Bootstrap.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+This project is developed as part of the Frontend Web Development Internship at Codtech IT Solutions Private Limited.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The main objective of this project is to apply frontend development concepts to build a user-friendly and responsive web application. It focuses on designing an intuitive user interface, implementing interactive features, and organizing the source code for better readability and maintainability.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Simple and user-friendly interface
+- Responsive web design
+- Interactive user interface
+- Organized source code
+- Easy-to-use application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML5
+- CSS3
+- JavaScript
+- React.js 
+- Bootstrap 
+- Git and GitHub
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Execution
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Visual Studio Code
+- Git
+- Node.js and npm (for React projects)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Steps to Run
 
-## Learn More
+**1. Clone the repository**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**2. Navigate to the project folder**
 
-### Code Splitting
+```bash
+cd weatherapp
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**3. Install dependencies**
 
-### Analyzing the Bundle Size
+For React projects:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+**4. Run the application**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots
 
-### Deployment
+## Output Images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Add the final application output images to the `output-images/` folder.
 
-### `npm run build` fails to minify
+Example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```markdown
+![Application Output](output-images/output.png)
+```
+
+## Source Code
+
+The complete source code is available in this GitHub repository. The project files are organized into folders to improve readability and maintainability.
+
+## Documentation
+
+The project documentation includes:
+
+- Project overview
+- Objectives and scope
+- Technologies used
+- Implementation details
+- Screenshots and output images
+- Results and conclusion
+
+## Learning Outcomes
+
+- Improved frontend development skills
+- Practical experience with web technologies
+- Understanding of responsive web design
+- Experience organizing project files
+- Familiarity with Git and GitHub
+- Improved debugging and problem-solving skills
+
+## Intern Information
+
+**Name:** Athmakuri Ganesh  
+**Role:** Frontend Web Development Intern  
+**Organization:** Codtech IT Solutions Private Limited
+
+## Acknowledgement
+
+I would like to thank Codtech IT Solutions Private Limited for providing me with the opportunity to participate in the Frontend Web Development Internship and gain practical experience in web development.
+
+---
+
+**Internship Duration:** 8 Weeks  
+**Project Status:** In Progress / Completed
