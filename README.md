@@ -131,7 +131,7 @@ The application uses the OpenWeather Current Weather API to retrieve weather det
 ## 🖥️ Output
 
 ```markdown
-![Weather App Output](output-images/weather-output.png)
+![Weather App Output](./Screenshot%202026-10-23%20073452.png)
 ```
 
 ##  Learning Outcomes
